@@ -1,15 +1,16 @@
 
+export const toDecimal = (romanNumber: string) => {
 
-const toDecimal = (romanNumber: string) => {
-
+    if (!isAValidRomanNumber(romanNumber))
+        return -1;
+        
     let result: number = 0;
     let romanChars: string[] = romanNumber.split('');
-    let length = romanChars.length;
-    let index = 0;
-
+    let length: number = romanChars.length;
+    let index: number = 0;
 
     while (index < length) {
-        let current: number = value(romanChars[index]);
+        let current: number = charValue(romanChars[index]);
 
         if (index + 1 === length) {
             result += current;
@@ -17,7 +18,7 @@ const toDecimal = (romanNumber: string) => {
             continue;
         }
 
-        let next = value(romanChars[index + 1]);
+        let next = charValue(romanChars[index + 1]);
 
         if (current >= next) {
             result += current;
@@ -32,7 +33,11 @@ const toDecimal = (romanNumber: string) => {
     return result;
 }
 
-const value = (r: string): number => {
+export const isAValidRomanNumber = (romanCandidate: string): boolean => {
+    let validation = new RegExp("^M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$");
+    return validation.test(romanCandidate);
+}
+const charValue = (r: string): number => {
     if (r == 'I')
         return 1;
     if (r == 'V')
@@ -51,5 +56,3 @@ const value = (r: string): number => {
     return -1;
 }
 
-
-export default toDecimal;
