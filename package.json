@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node ./dist/index.js",
     "build": "tsc --project ./",
-    "test": "jest"
+    "test": "jest --collect-coverage"
   },
   "author": "Alexandra Huamani",
   "license": "ISC",

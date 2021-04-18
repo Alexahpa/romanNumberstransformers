@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1618775323294" clover="3.2.0">
+  <project timestamp="1618775323294" name="All files">
+    <metrics statements="84" coveredstatements="82" conditionals="40" coveredconditionals="38" methods="6" coveredmethods="6" elements="130" coveredelements="126" complexity="0" loc="84" ncloc="84" packages="2" files="2" classes="2"/>
+    <package name="dist.src.romans">
+      <metrics statements="44" coveredstatements="43" conditionals="20" coveredconditionals="19" methods="3" coveredmethods="3"/>
+      <file name="romanNumber.js" path="E:\Users\User\Documentos\GitHub\romanNumberstransformers\dist\src\romans\romanNumber.js">
+        <metrics statements="44" coveredstatements="43" conditionals="20" coveredconditionals="19" methods="3" coveredmethods="3"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="19" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="8" type="stmt"/>
+        <line num="7" count="11" type="stmt"/>
+        <line num="8" count="11" type="stmt"/>
+        <line num="9" count="11" type="stmt"/>
+        <line num="10" count="11" type="stmt"/>
+        <line num="11" count="11" type="stmt"/>
+        <line num="12" count="28" type="stmt"/>
+        <line num="13" count="28" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="18" count="24" type="stmt"/>
+        <line num="19" count="24" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="14" type="stmt"/>
+        <line num="21" count="14" type="stmt"/>
+        <line num="22" count="14" type="stmt"/>
+        <line num="24" count="10" type="stmt"/>
+        <line num="25" count="10" type="stmt"/>
+        <line num="28" count="11" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="19" type="stmt"/>
+        <line num="33" count="19" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="52" type="cond" truecount="2" falsecount="0"/>
+        <line num="38" count="20" type="stmt"/>
+        <line num="39" count="32" type="cond" truecount="2" falsecount="0"/>
+        <line num="40" count="5" type="stmt"/>
+        <line num="41" count="27" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="16" type="stmt"/>
+        <line num="43" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="45" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="7" type="stmt"/>
+        <line num="47" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="49" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.romans">
+      <metrics statements="40" coveredstatements="39" conditionals="20" coveredconditionals="19" methods="3" coveredmethods="3"/>
+      <file name="romanNumber.ts" path="E:\Users\User\Documentos\GitHub\romanNumberstransformers\src\romans\romanNumber.ts">
+        <metrics statements="40" coveredstatements="39" conditionals="20" coveredconditionals="19" methods="3" coveredmethods="3"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="19" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="7" count="11" type="stmt"/>
+        <line num="8" count="11" type="stmt"/>
+        <line num="9" count="11" type="stmt"/>
+        <line num="10" count="11" type="stmt"/>
+        <line num="12" count="11" type="stmt"/>
+        <line num="13" count="28" type="stmt"/>
+        <line num="15" count="28" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="21" count="24" type="stmt"/>
+        <line num="23" count="24" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="14" type="stmt"/>
+        <line num="25" count="14" type="stmt"/>
+        <line num="26" count="14" type="stmt"/>
+        <line num="29" count="10" type="stmt"/>
+        <line num="30" count="10" type="stmt"/>
+        <line num="33" count="11" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="19" type="stmt"/>
+        <line num="38" count="19" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="52" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="20" type="stmt"/>
+        <line num="43" count="32" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="5" type="stmt"/>
+        <line num="45" count="27" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="16" type="stmt"/>
+        <line num="47" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="50" count="7" type="stmt"/>
+        <line num="51" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="53" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
