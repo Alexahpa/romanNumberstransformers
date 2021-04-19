@@ -1,19 +1,8 @@
 import { toDecimal } from "./romans/romanNumber";
-import prompt from "prompt-sync";
 
 const main = () => {
-    const myPrompt = prompt();
-    let stdout: string = "";
-
-    stdout = myPrompt("Hello, please write a roman number or STOP: ");
-
-    while (stdout && stdout.toLowerCase() !== "stop") {
-
-        let result = toDecimal(stdout);
-        console.log("The number is ", result);
-        stdout = myPrompt("Anthoer roman to convert? Or try STOP: ");
-
-    }
+    let result = toDecimal("XIX");
+    console.log("The number is ", result);
 }
 
 main();
